@@ -64,6 +64,10 @@ public class RomanConverterTest {
     public void shouldReturnCMLXXXVIWhen986(){
         assertEquals("CMLXXXVI", toRoman(986));
     }
+    @Test
+    public void shouldReturnMCCCXXXVIIWhen1337(){
+        assertEquals("MCCCXXXVII", toRoman(1337));
+    }
 
 
 
@@ -107,6 +111,9 @@ public class RomanConverterTest {
             }else if(number >= 500 && number < 900){
                 output += "D";
                 number -= 500;
+            }else if(number >= 900 && number < 1000){
+                output += "CM";
+                number -= 900;
             }
 
             else{
