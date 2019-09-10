@@ -36,7 +36,14 @@ public class RomanConverterTest {
     public void shouldReturnXWhen10(){
         assertEquals("X", toRoman(10));
     }
-
+    @Test
+    public void shouldReturnXLWhen40(){
+        assertEquals("XL", toRoman(40));
+    }
+    @Test
+    public void shouldReturnLXIXWhen69(){
+        assertEquals("LXIX", toRoman(69));
+    }
 
 
 
@@ -55,7 +62,15 @@ public class RomanConverterTest {
             } else if(number == 9){
                 output += "IX";
                 number -= 9;
-            }else{
+            }else if(number >= 10 && number < 40){
+                output += "X";
+                number -= 10;
+            }else if(number >= 40 && number <50){
+                output += "XL";
+                number -= 40;
+            }
+
+            else{
                 break;
             }
 

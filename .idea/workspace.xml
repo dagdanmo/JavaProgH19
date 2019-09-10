@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1be1a094-984d-43af-92d5-31bc77766a8e" name="Default Changelist" comment="Ping pong is fun!">
+    <list default="true" id="1be1a094-984d-43af-92d5-31bc77766a8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RomanConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RomanConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanConverterTest.class" afterDir="false" />
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RomanConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="435">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -103,7 +103,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568117948280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568118371430" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,9 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanConverterTest.shouldReturnXLWhen40" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgH19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanConverterTest" />
+      <option name="METHOD_NAME" value="shouldReturnXLWhen40" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanConverterTest" />
+        <item itemvalue="JUnit.RomanConverterTest.shouldReturnXLWhen40" />
         <item itemvalue="JUnit.RomanConverterTest.shouldGetOutput" />
         <item itemvalue="JUnit.RomanConverterTest.shouldReturnIIIWhen3" />
       </list>
@@ -187,38 +198,45 @@
       <option name="project" value="LOCAL" />
       <updated>1568117737963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed test 9 toroman, added test 1o tRoman">
+      <created>1568117969444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568117969444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 09m 51s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 10m 23s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 10m 42s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 10m 58s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 11m 44s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 11m 48s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 13m 05s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 14m 17s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 15m 16s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanConverterTest - 2019.09.10 at 14h 16m 37s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 17m 23s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 18m 20s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 19m 11s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 20m 51s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 22m 09s.xml">
+      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 22m 21s.xml">
+      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 22m 41s.xml">
+      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 23m 18s.xml">
+      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 23m 25s.xml">
       <configuration name="RomanConverterTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -258,7 +276,8 @@
     <MESSAGE value="Add .travis.yml" />
     <MESSAGE value="first ping pong" />
     <MESSAGE value="Ping pong is fun!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ping pong is fun!" />
+    <MESSAGE value="Fixed test 9 toroman, added test 1o tRoman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed test 9 toroman, added test 1o tRoman" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaProgH19.iml">
@@ -297,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="435">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
         </state>
       </provider>
     </entry>
