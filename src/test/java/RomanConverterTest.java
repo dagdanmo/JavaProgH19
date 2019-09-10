@@ -48,6 +48,11 @@ public class RomanConverterTest {
     public void shouldReturnXCIXWhen99(){
         assertEquals("XCIX", toRoman(99));
     }
+    @Test
+    public void shouldReturnCCCXXIWhen321(){
+        assertEquals("CCCXXI", toRoman(321));
+    }
+
 
 
 
@@ -75,6 +80,9 @@ public class RomanConverterTest {
             }else if(number >= 50 && number < 90){
                 output += "L";
                 number -= 50;
+            }else if(number >= 90 && number < 100){
+                output += "XC";
+                number -= 90;
             }
 
             else{
