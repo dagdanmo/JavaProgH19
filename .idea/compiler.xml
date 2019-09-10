@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaProgH19" />
+        <module name="roman" />
       </profile>
     </annotationProcessing>
   </component>
