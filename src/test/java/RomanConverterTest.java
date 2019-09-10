@@ -56,6 +56,10 @@ public class RomanConverterTest {
     public void shouldReturnCDLIXWhen459(){
         assertEquals("CDLIX", toRoman(459));
     }
+    @Test
+    public void shouldReturnDCCIVWhen704(){
+        assertEquals("DCCIV", toRoman(704));
+    }
 
 
 
@@ -92,6 +96,9 @@ public class RomanConverterTest {
             }else if(number >= 100 && number < 400){
                 output += "C";
                 number -= 100;
+            }else if(number >= 400 && number < 500){
+                output += "CD";
+                number -= 400;
             }
 
             else{
