@@ -29,7 +29,13 @@ public class RomanConverterTest {
     public void shouldReturnVIIIWhen8(){
         assertEquals("VIII", toRoman(8));
     }
-
+    @Test
+    public void shouldReturnIXWhen9(){
+        assertEquals("IX", toRoman(9));
+    }@Test
+    public void shouldReturnXWhen10(){
+        assertEquals("X", toRoman(10));
+    }
 
 
 
@@ -46,6 +52,11 @@ public class RomanConverterTest {
             } else if (number >= 5 && number < 9) {
                 output += "V";
                 number -= 5;
+            } else if(number == 9){
+                output += "IX";
+                number -= 9;
+            }else{
+                break;
             }
 
         }
