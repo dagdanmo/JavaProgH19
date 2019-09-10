@@ -18,22 +18,38 @@ public class RomanConverterTest {
     public void shouldReturnIIIWhen3(){
         assertEquals("III", toRoman(3));
     }
+    @Test
+    public void shouldReturnIVWhen4(){
+        assertEquals("IV", toRoman(4));
+    }
+    @Test
+    public void shouldReturnVWhen5(){
+        assertEquals("V", toRoman(5));
+    }@Test
+    public void shouldReturnVIIIWhen8(){
+        assertEquals("VIII", toRoman(8));
+    }
 
 
 
 
-    public static String toRoman(int number){
 
-            if(number == 1){
-                return "I";
-            }else if(number == 2){
-                return "II";
-            } else if(number == 3){
-                    return "III";
+    public static String toRoman(int number) {
+    String output = "";
+        while (number > 0) {
+            if (number < 4) {
+                output += "I";
+                number -= 1;
+            } else if (number == 4) {
+                output += "IV";
+                number -= 4;
+            } else if (number >= 5 && number < 9) {
+                output += "V";
+                number -= 5;
             }
 
-
-        return null;
+        }
+        return output;
     }
 
 
