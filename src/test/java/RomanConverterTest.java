@@ -114,6 +114,9 @@ public class RomanConverterTest {
             }else if(number >= 900 && number < 1000){
                 output += "CM";
                 number -= 900;
+            }else if(number >= 1000){
+                output += "M";
+                number -= 1000;
             }
 
             else{
