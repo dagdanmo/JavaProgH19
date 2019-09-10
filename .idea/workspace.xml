@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1be1a094-984d-43af-92d5-31bc77766a8e" name="Default Changelist" comment="F 69-test for ultimate precision">
+    <list default="true" id="1be1a094-984d-43af-92d5-31bc77766a8e" name="Default Changelist" comment="Fixed 99 test, added a test for 321.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RomanConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RomanConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanConverterTest.class" afterDir="false" />
@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/RomanConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -103,7 +103,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568118792810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568119091309" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,25 +212,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568118424627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed 69-test. It was very precise.">
+      <created>1568118656102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568118656102</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed 99 test, added a test for 321.">
+      <created>1568118830816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568118830816</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 19m 11s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 20m 51s.xml">
-      <configuration name="RomanConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 22m 09s.xml">
-      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 22m 21s.xml">
-      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 22m 41s.xml">
-      <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanConverterTest_shouldReturnXLWhen40 - 2019.09.10 at 14h 23m 18s.xml">
       <configuration name="RomanConverterTest.shouldReturnXLWhen40" configurationId="JUnit" />
     </history-entry>
@@ -244,6 +243,21 @@
       <configuration name="RomanConverterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RomanConverterTest - 2019.09.10 at 14h 28m 06s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 29m 56s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 30m 13s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 32m 07s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 33m 16s.xml">
+      <configuration name="RomanConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest - 2019.09.10 at 14h 35m 03s.xml">
       <configuration name="RomanConverterTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -285,7 +299,9 @@
     <MESSAGE value="Ping pong is fun!" />
     <MESSAGE value="Fixed test 9 toroman, added test 1o tRoman" />
     <MESSAGE value="Added 69-test for ultimate precision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 69-test for ultimate precision" />
+    <MESSAGE value="Fixed 69-test. It was very precise." />
+    <MESSAGE value="Fixed 99 test, added a test for 321." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed 99 test, added a test for 321." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaProgH19.iml">
@@ -325,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/RomanConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
